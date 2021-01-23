@@ -1,6 +1,6 @@
 {
   "name": "media-player",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Proyecto del Curso Profesional de JavaScript",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "keywords": ["training"],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "live-server": "^1.2.1"
   }
