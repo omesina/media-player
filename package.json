@@ -1,6 +1,6 @@
 {
   "name": "media-player",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Proyecto del Curso Profesional de JavaScript",
   "main": "index.js",
   "scripts": {
