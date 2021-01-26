@@ -11,10 +11,19 @@ MediaPlayer.prototype._initPlugins = function () {
 }
 
 MediaPlayer.prototype.play = function () {            
+  this.media.play();
+}
+
+MediaPlayer.prototype.pause = function () {            
+  this.media.pause();
+}
+
+MediaPlayer.prototype.tooglePlay = function () {            
   (this.media.paused)
   ? this.media.play()
   : this.media.pause();              
 }
+
 
 MediaPlayer.prototype.mute = function () {            
     this.media.muted = true;
