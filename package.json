@@ -6,7 +6,9 @@
   "scripts": {
     "start": "live-server"
   },
-  "keywords": ["training"],
+  "keywords": [
+    "training"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {

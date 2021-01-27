@@ -8,8 +8,8 @@ AutoPlay.prototype.run = function (player) {
     
     player.play();
 
-    if(player.muted)
-        player.muted = false;
+    // if(player.muted)
+    //     player.muted = false;
 }
 
 export default AutoPlay;
