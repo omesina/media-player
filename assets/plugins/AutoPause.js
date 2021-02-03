@@ -31,7 +31,7 @@ class AutoPause {
         else{
             this.player.pause();
         }
-        console.log(entry);
+        //console.log(entry);
     }
 
     handleVisibilityChange(){
