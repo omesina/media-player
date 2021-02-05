@@ -1,10 +1,10 @@
-import MediaPlayer from "./MediaPlayer.js";
-import AutoPlay from './plugins/AutoPlay.js'
-import AutoPause from './plugins/AutoPause.js'
+import MediaPlayer from "./MediaPlayer.ts";
+import AutoPlay from './plugins/AutoPlay.ts'
+import AutoPause from './plugins/AutoPause.ts'
 
 const video = document.querySelector("video");
-const playButton = document.querySelector("#playButton");
-const mutedButton = document.querySelector("#mutedButton");
+const playButton: HTMLElement = document.querySelector("#playButton");
+const mutedButton: HTMLElement = document.querySelector("#mutedButton");
 
 //const player = new MediaPlayer({el: video, plugins: []});
 const player = new MediaPlayer({el: video, plugins: [new AutoPlay(), new AutoPause()]});
